@@ -1,0 +1,124 @@
+<div class="cards">
+
+    <!-- here mat card from angular material for card box and card selector place inside that card  -->
+
+    <!-- card 1 -->
+    <mat-card>
+
+        <!-- selector of card component, we want to display it in inside dashboard for that Place its selector on dashboard html  -->
+
+
+        <!--  icon is string interpolation that is data binding here name icon is declared on dashboard.html and after that child to 
+parent access use input decorator on card.ts after that datbinding on card.html -->
+
+        <!-- give input decorator on card.ts  after giving this string -->
+        <app-card
+
+
+            bg="orange"
+            icon="person"
+            description="student"
+            count="5000"
+
+         >
+
+        </app-card>
+        
+
+
+    </mat-card>
+
+
+
+    <!-- card 2 -->
+    <mat-card>
+
+
+        <app-card
+        
+        
+        bg="red"
+        icon="home"
+        description="institution"
+        count="3000"
+        >
+
+
+
+        </app-card>
+
+
+    </mat-card>
+
+
+    <!-- card 3 -->
+
+    <mat-card>
+
+
+        <app-card
+        
+        bg="green"
+        icon="groups"
+        description="employees"
+        count="1500"
+        >
+
+
+
+        </app-card>
+
+
+    </mat-card>
+
+
+    <!-- card 4 -->
+
+    <mat-card>
+
+
+        <app-card
+        
+        bg="blue"
+        icon="dashboard"
+        description="placements"
+        count="1000"
+        >
+
+
+
+        </app-card>
+
+
+    </mat-card>
+
+
+
+
+
+</div>
+
+
+<div class="area">
+
+    <!-- area chart  -->
+
+    <app-area-chart></app-area-chart>
+
+
+</div>
+
+
+<div class="tablepi">
+
+    <!-- table  -->
+
+    <app-table></app-table>
+
+
+    <!-- pi chart  -->
+    <app-pichart></app-pichart>
+
+
+
+</div>

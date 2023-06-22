@@ -1,0 +1,37 @@
+.card1 {
+    width: 220px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+
+
+.icon{
+    font-size: 50px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+
+ /* here ng class is used to give separate bacground for card ,we use bg on dashboard.html as atribut if use ng class it will act 
+as a class eg: there we declare bg="red" we here red will act as class that we can call on css and give bg colour  */
+
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}

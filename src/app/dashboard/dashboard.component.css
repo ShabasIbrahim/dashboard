@@ -1,0 +1,20 @@
+.tablepi{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.area{
+    margin: 20px 0px;
+}

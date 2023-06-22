@@ -1,0 +1,69 @@
+Dashboard Work flow
+
+
+1. ng new admin-dashboard(project name)
+
+2.run project : ng s
+
+3.install/import add third party libraries to complete project
+
+       *install angular material ng add @angular/material copy from angular website paste on cmd
+
+        1. select custome theme
+        2. select typology
+        3. select amnimation
+
+  to use any component from angular website copy its api link from website and copy and paste it in 
+  app.module.ts 
+
+  paste it and type its name on import section on same page to activate it
+
+
+4. Delete all contents from appcomponent.html
+
+5. check third party library theme is  working in our project or not  if not working 
+    
+ @import"../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css"; 
+ write it on style.css
+
+
+ 6. creating these components
+
+     header
+     footer'
+     aside -side bar 
+
+     dashboard -inside 
+       card
+       area chart
+       table
+       pichart
+
+ 7. design new components
+
+     employees
+     gallery
+     contacts
+     ideas      
+
+ \
+ 8.set up path for components and update
+    dashboard
+    employees
+    gallery
+    leads    
+
+
+ 9. install highchart on command box using link: npm install highcharts-angular --save
+ 
+
+   9.1 import high chart to appmodule.ts from git link:import { HighchartsChartModule } from 'highcharts-angular';
+   9.2 to get properties of high chart on cmd link:npm install highcharts --save
+   9.3 import high chart in component where we want to display.Here areachart componentent.ts 
+      link: import * as Highcharts from 'highcharts';
+   9.4 copy [Highcharts] from area.component,html and paste on component.ts also copy Highcharts from import on top of 
+    ts then it will be Highcharts=Highcharts
+
+    9.5 create a constructor for load chart first while loading page
+    
+     
